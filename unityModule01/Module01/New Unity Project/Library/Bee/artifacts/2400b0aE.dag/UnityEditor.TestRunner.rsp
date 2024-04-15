@@ -1,7 +1,7 @@
 -target:library
 -out:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.TestRunner.dll"
 -refout:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.TestRunner.ref.dll"
--define:UNITY_2022_3_22
+-define:UNITY_2022_3_4
 -define:UNITY_2022_3
 -define:UNITY_2022
 -define:UNITY_5_3_OR_NEWER
