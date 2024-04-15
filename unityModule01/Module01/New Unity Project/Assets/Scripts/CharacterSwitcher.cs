@@ -3,11 +3,14 @@ using UnityEngine;
 public class CharacterSwitcher : MonoBehaviour
 {
     public GameObject[] characters;
+    
     private int activeCharacterIndex = 0;
 
     void Start()
     {
         ActiveCharacter(0);
+        string playerName = characters[0].name;
+        FindObjectOfType<UIManager>().UpdateActivePlayer(playerName);
     }
 
     void Update()
@@ -31,7 +34,9 @@ public class CharacterSwitcher : MonoBehaviour
         }
 
         characters[index].GetComponent<PlayerController>().enabled = true;
+        string playerName = characters[index].name;
         activeCharacterIndex = index;
+        FindObjectOfType<UIManager>().UpdateActivePlayer(playerName);
     }
 
     void UpdateCamera()

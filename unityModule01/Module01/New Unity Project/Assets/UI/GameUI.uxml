@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameUIStyleSheet.uss?fileID=7433441132597879392&amp;guid=297f76b3326e706ad92c52716ff2ba64&amp;type=3#GameUIStyleSheet" />
+    <ui:Label tabindex="-1" text="Joueur Actif: " parse-escape-sequences="true" display-tooltip-when-elided="true" name="ActivePlayerLabel" />
+    <ui:Label tabindex="-1" text="Control : Aplha[1, 2, 3] switch Player" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ControlsLabel" />
+</ui:UXML>
